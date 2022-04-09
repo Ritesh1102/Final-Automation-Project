@@ -59,13 +59,13 @@ public class ProjectAutomation
 		
 		//Your flight from TLV to SFO has been reserved.
 		//First Name
-		driver.findElement(By.xpath("//*[@id=\"inputName\"]")).sendKeys("Shravani Dhumal");
+		driver.findElement(By.xpath("//*[@id=\"inputName\"]")).sendKeys("Ritesh");
 		Thread.sleep(2000);
 		//Address
-		driver.findElement(By.xpath("//*[@id=\"address\"]")).sendKeys(" Pune Maharastra");
+		driver.findElement(By.xpath("//*[@id=\"address\"]")).sendKeys(" solapur Maharastra");
 		Thread.sleep(2000);
 		//City
-		driver.findElement(By.xpath("//*[@id=\"city\"]")).sendKeys("Shikrapur");
+		driver.findElement(By.xpath("//*[@id=\"city\"]")).sendKeys("Solapur");
 		Thread.sleep(2000);
 		//State
 		driver.findElement(By.xpath("//*[@id=\"state\"]")).sendKeys("Maharastra");
@@ -90,7 +90,7 @@ public class ProjectAutomation
 		driver.findElement(By.xpath("//*[@id=\"creditCardYear\"]")).sendKeys("2022");
 		Thread.sleep(2000);
 		//Name of Card
-		driver.findElement(By.xpath("//*[@id=\"nameOnCard\"]")).sendKeys("Shravani Dhumal");
+		driver.findElement(By.xpath("//*[@id=\"nameOnCard\"]")).sendKeys("ritesh");
 		Thread.sleep(2000);
 		//Remember me
 		driver.findElement(By.xpath("//*[@id=\"rememberMe\"]")).click();
